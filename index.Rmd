@@ -1,6 +1,6 @@
 --- 
 title: "mbh 001: Data Analysis and Statistics with R"
-author: "Michael Hunt (with an enormous debt to Dylan Childs, from which this is urrently cmostly a straight copy)"
+author: "Michael Hunt (with an enormous debt to Dylan Childs, from which this currently is mostly a straight copy)"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output:
