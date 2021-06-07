@@ -20,6 +20,18 @@ description: "Course book for Research Methods and GIS at Cornwall College Newqu
 
 This is the online course book for the __Research Methods and GIS__  module. You can view this book in any modern desktop browser, as well as on your phone or tablet device.
 
+## Why do this course?
+
+We want you to develop the key skills of being a scientist. That means that you need some understanding of how to ask questions and of the the principles of experimental design, data collection, statistical analysis and scientific presentation.
+
+By the end of this course we don't expect that you be an expert in any of these topics, much less be a maths wizard or a computer genius, but we do expect that you will be able to make sensible decisions about designing studies, collecting data and then being able to interpret these data correctly.
+
+You will have used a variety of analytical techniques,
+
+This will set you in goodstead for your honours project next year.
+
+
+
 ## Why do a data analysis course? {#why-data-analysis}
 
 To do science yourself, or to understand the science other people do, you need some understanding of the principles of experimental design, data collection, statistical analysis and scientific presentation. That does not mean becoming a maths wizard, or a computer genius. It means knowing how to take sensible decisions about designing studies and collecting data, and then being able to interpret those data correctly. Sometimes the methods required are extremely simple, sometimes more complex. You aren’t expected to get to grips with all of them, but what we hope to do in the course is to give you a good practical grasp of the core techniques that are widely used in biology. You should then be equipped to use these techniques intelligently and, equally importantly, know when they are not appropriate, and when you need to seek help to find the correct way to design or analyse your study.
