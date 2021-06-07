@@ -1,4 +1,5 @@
 course-information-and-overview
+why-do-this-course
 why-data-analysis
 overview
 aims
@@ -21,4 +22,3 @@ online-drop-in-sessions
 working-together
 overall
 health-and-safety
-why-do-this-course
