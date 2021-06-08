@@ -1,6 +1,5 @@
 course-information-and-overview
 why-do-this-course
-why-data-analysis
 overview
 aims
 objectives
