@@ -66,11 +66,11 @@ An interactive **learnr** tutorial will be provided each week to provide you wit
 
 ### What do you need to learn?
 
-The [learning outcomes](#expected-learning) chapter tells you what you should know and be able to do by the end of the course. It also highlights what you **don't** need to know from an assessment perspective. As always, feel free to post a message on the discussion board if you're not sure of what you need to be able to do.
+The [learning outcomes](#expected-learning) chapter tells you what you should know and be able to do by the end of the course. It also highlights what you **don't** need to know from an assessment perspective. As always, feel free to post a message on the Teams discussion board if you're not sure of what you need to be able to do.
 
 ### What is required of you? {#what-is-required-of-you}
 
-A willingness to learn and to take responsibility for your learning! Data analysis is not the easiest subject in the world, but neither is it the most difficult. It's worth making the effort because what you learn in this course will form the basis for much of what you do in practical and project work that follows in later semesters.
+A willingness to learn and to take responsibility for your learning! Data analysis is not the easiest subject in the world, but neither is it the most difficult. It's worth making the effort because what you learn in this course will form the basis for much of what you do in practical and project work that follows in later sparts of your degree and subsequent career as a scientist.
 
 The minimum requirement for the course is that you:
 
@@ -84,7 +84,7 @@ How you work through the book is fairly flexible, but remember, the self-study p
 
 A word of advice: Don’t let the flexibility of the course tempt you into letting a backlog of work build up. It will be hard to catch up later if you haven't made a good 'first pass' at all the material during semester.
 
-One last point: **the university guidelines assume the total study time associated with a 10 credit module to be about 100 hours**. You should aim to spend about 4-5 hours each week working through the chapters, completing the tutorials, and attending feedback sessions during semester. This leaves you about 40-50 hours to revise for the formal exam in the new year.
+One last point: **the college study guidelines assume the total study time associated with a 20 credit module to be about 200 hours**. You should aim to spend about 4-5 hours each week working through the chapters, completing the tutorials, and attending feedback sessions during semester. This leaves you about 40-50 hours to revise for the formal exam in the new year.
 
 ## How to use the teaching material {#how-to-use-the-teaching-material}
 
