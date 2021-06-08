@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 2 Expected learning outcomes | Research Methods and GIS with R</title>
+  <meta name="description" content="Course book for CORN276 Research Methods and GIS at Cornwall College Newquay" />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 2 Expected learning outcomes | Research Methods and GIS with R" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Course book for CORN276 Research Methods and GIS at Cornwall College Newquay" />
+  <meta name="github-repo" content="mbh038/rmgis" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 2 Expected learning outcomes | Research Methods and GIS with R" />
+  
+  <meta name="twitter:description" content="Course book for CORN276 Research Methods and GIS at Cornwall College Newquay" />
+  
+
+<meta name="author" content="Michael Hunt (with an enormous debt to Dylan Childs, from which this currently is mostly a straight copy)" />
+
+
+<meta name="date" content="2021-06-08" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html"/>
+
+<script src="libs/header-attrs-2.8/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<style type="text/css">
+
+.warning-box {
+  border: 3px solid #e60000;
+  margin:  25px;
+  padding: 10px 10px 5px 10px;
+  border-radius: 6px 6px 6px 6px;
+}
+
+.advanced-box {
+  border: 3px solid #268bd2;
+  margin:  25px;
+  padding: 10px 10px 5px 10px;
+  border-radius: 6px 6px 6px 6px;
+}
+
+.do-something {
+  border: 3px solid #803e00;
+  margin:  25px;
+  padding: 10px 10px 5px 10px;
+  border-radius: 6px 6px 6px 6px;
+}
+
+</style>
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Course information and overview</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#why-do-this-course"><i class="fa fa-check"></i><b>1.1</b> Why do this course?</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#overview"><i class="fa fa-check"></i><b>1.2</b> Course overview</a>
+<ul>
+<li class="chapter" data-level="1.2.1" data-path="index.html"><a href="index.html#aims"><i class="fa fa-check"></i><b>1.2.1</b> Aims</a></li>
+<li class="chapter" data-level="1.2.2" data-path="index.html"><a href="index.html#objectives"><i class="fa fa-check"></i><b>1.2.2</b> Objectives</a></li>
+<li class="chapter" data-level="1.2.3" data-path="index.html"><a href="index.html#assumed-background"><i class="fa fa-check"></i><b>1.2.3</b> Assumed background</a></li>
+<li class="chapter" data-level="1.2.4" data-path="index.html"><a href="index.html#methods"><i class="fa fa-check"></i><b>1.2.4</b> Methods</a></li>
+<li class="chapter" data-level="1.2.5" data-path="index.html"><a href="index.html#what-do-you-need-to-learn"><i class="fa fa-check"></i><b>1.2.5</b> What do you need to learn?</a></li>
+<li class="chapter" data-level="1.2.6" data-path="index.html"><a href="index.html#what-is-required-of-you"><i class="fa fa-check"></i><b>1.2.6</b> What is required of you?</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#how-to-use-the-teaching-material"><i class="fa fa-check"></i><b>1.3</b> How to use the teaching material</a>
+<ul>
+<li class="chapter" data-level="1.3.1" data-path="index.html"><a href="index.html#printed-material"><i class="fa fa-check"></i><b>1.3.1</b> The online course book</a></li>
+<li class="chapter" data-level="1.3.2" data-path="index.html"><a href="index.html#how-to-make-best-use-of-it"><i class="fa fa-check"></i><b>1.3.2</b> How to make best use of the teaching material</a></li>
+<li class="chapter" data-level="1.3.3" data-path="index.html"><a href="index.html#conventions"><i class="fa fa-check"></i><b>1.3.3</b> Conventions used in the course material</a></li>
+<li class="chapter" data-level="1.3.4" data-path="index.html"><a href="index.html#feedback"><i class="fa fa-check"></i><b>1.3.4</b> Feedback</a></li>
+<li class="chapter" data-level="1.3.5" data-path="index.html"><a href="index.html#overall"><i class="fa fa-check"></i><b>1.3.5</b> Overall…</a></li>
+</ul></li>
+<li class="chapter" data-level="1.4" data-path="index.html"><a href="index.html#health-and-safety"><i class="fa fa-check"></i><b>1.4</b> Health and safety using display screen equipment</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="expected-learning.html"><a href="expected-learning.html"><i class="fa fa-check"></i><b>2</b> Expected learning outcomes</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="expected-learning.html"><a href="expected-learning.html#collecting-and-using-data"><i class="fa fa-check"></i><b>2.1</b> Collecting and using data</a></li>
+<li class="chapter" data-level="2.2" data-path="expected-learning.html"><a href="expected-learning.html#statistical-concepts"><i class="fa fa-check"></i><b>2.2</b> Statistical Concepts</a></li>
+<li class="chapter" data-level="2.3" data-path="expected-learning.html"><a href="expected-learning.html#simple-parametric-statistics"><i class="fa fa-check"></i><b>2.3</b> Simple parametric statistics</a></li>
+<li class="chapter" data-level="2.4" data-path="expected-learning.html"><a href="expected-learning.html#regression-and-anova"><i class="fa fa-check"></i><b>2.4</b> Regression and ANOVA</a></li>
+<li class="chapter" data-level="2.5" data-path="expected-learning.html"><a href="expected-learning.html#doing-more-with-models"><i class="fa fa-check"></i><b>2.5</b> Doing more with models</a></li>
+<li class="chapter" data-level="2.6" data-path="expected-learning.html"><a href="expected-learning.html#experimental-design"><i class="fa fa-check"></i><b>2.6</b> Experimental design</a></li>
+<li class="chapter" data-level="2.7" data-path="expected-learning.html"><a href="expected-learning.html#beyond-simple-models"><i class="fa fa-check"></i><b>2.7</b> Beyond simple models</a></li>
+<li class="chapter" data-level="2.8" data-path="expected-learning.html"><a href="expected-learning.html#frequency-data-and-non-parameteric-tests"><i class="fa fa-check"></i><b>2.8</b> Frequency data and non-parameteric tests</a></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Research Methods and GIS with R</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="expected-learning" class="section level1" number="2">
+<h1><span class="header-section-number">Chapter 2</span> Expected learning outcomes</h1>
+<div id="collecting-and-using-data" class="section level2" number="2.1">
+<h2><span class="header-section-number">2.1</span> Collecting and using data</h2>
+<ul>
+<li><p>Given a description of some data, classify variables as numeric vs categorical, ratio vs. interval, and ordinal vs. nominal.</p></li>
+<li><p>Construct simple summaries of numeric variables in R using the <code>mean</code>, <code>sd</code>, <code>var</code> functions.</p></li>
+</ul>
+</div>
+<div id="statistical-concepts" class="section level2" number="2.2">
+<h2><span class="header-section-number">2.2</span> Statistical Concepts</h2>
+<ul>
+<li><p>Explain what sampling error is (in non-technical terms) and understand why it is necessary to quantify sampling error alongside point estimates.</p></li>
+<li><p>Recognise the difference between the distribution of a sample, and the sampling distribution of an estimate derived from that sample.</p></li>
+<li><p>Recognise the difference between the standard deviation (a property of a sample) and the standard error (a property of a sampling distribution).</p></li>
+<li><p>Given a description of an experimental setting, recognise…</p>
+<ol style="list-style-type: decimal">
+<li>…the difference between a statistical population and a sample from the population.</li>
+<li>…the difference between a population parameter and a point estimate of the population parameter.</li>
+</ol></li>
+<li><p>Understand what is meant by the term ‘null hypothesis’ and, given a scenario, state the appropriate null hypothesis for the associated statistical test.</p></li>
+<li><p>Identify whether or not a result is ‘statistically significance’ by examining the <em>p</em>-value it produces.</p></li>
+<li><p>Calculate the standard error of a sample mean when the population distribution of a variable follows a normal distribution.</p></li>
+</ul>
+<p><em>You are not expected to be able to explain or use the the bootstrap or permutation test—this were introduced to help you learn the principles listed above.</em></p>
+</div>
+<div id="simple-parametric-statistics" class="section level2" number="2.3">
+<h2><span class="header-section-number">2.3</span> Simple parametric statistics</h2>
+<ul>
+<li><p>Understand that a one-sample <em>t</em>-test is used to assess whether a population mean is different from a particular reference value (often 0).</p></li>
+<li><p>Understand that a two-sample <em>t</em>-test is used to assess whether two population means are different from one another.</p></li>
+<li><p>Given an experimental scenario and question, choose the correct <em>t</em>-test to use to answer the question.</p></li>
+<li><p>State the assumptions of the one-sample, and two-sample <em>t</em>-tests, and explain how you might check them for a given problem using R.</p></li>
+<li><p>Carry out a one-sample or two-sample <em>t</em>-test using the <code>t.test</code> function, and be able to interpret the output produced by <code>t.test</code>.</p></li>
+<li><p>Write an informative and concise summary of the results from a one-sample or two-sample <em>t</em>-test.</p></li>
+<li><p>State the assumptions of Pearson’s correlation and determine which when it is appropriate to use.</p></li>
+<li><p>Carry out Pearson’s correlation using the <code>cor.test</code> function and interpret the results.</p></li>
+<li><p>Write an informative and concise summary of the results from a correlation analysis.</p></li>
+</ul>
+</div>
+<div id="regression-and-anova" class="section level2" number="2.4">
+<h2><span class="header-section-number">2.4</span> Regression and ANOVA</h2>
+<ul>
+<li><p>Understand what simple linear regression and one-way ANOVA do, and when to use them.</p></li>
+<li><p>Distinguish between situations in which correlation or regression is the most appropriate technique to use.</p></li>
+<li><p>Fit a simple linear regression using the <code>lm</code> function and interpret the output from…</p>
+<ol style="list-style-type: decimal">
+<li>…<code>anova</code> to determine the significance of fit</li>
+<li>…<code>summary</code> to extract the variance explained (<span class="math inline">\(R^{2}\)</span>) and the fitted coefficients (intercept and slope)</li>
+</ol></li>
+<li><p>Calculate predicted <span class="math inline">\(y\)</span>-values from a fitted regression.</p></li>
+<li><p>Fit a one-way ANOVA using the <code>lm</code> function and interpret the global test of significance produced by the <code>anova</code> function.</p></li>
+<li><p>Write an informative and concise summary of the results from a simple linear regression and one-way ANOVA analyses.</p></li>
+</ul>
+<p><em>Your ability to summarise a one-way ANOVA or regression analysis graphically—showing the means and standard errors (ANOVA) or the data and fitted line (regression)—will not be assessed.</em></p>
+</div>
+<div id="doing-more-with-models" class="section level2" number="2.5">
+<h2><span class="header-section-number">2.5</span> Doing more with models</h2>
+<ul>
+<li><p>State the assumptions of the simple linear regression and one-way ANOVA models.</p></li>
+<li><p>Use regression diagnostic plots to identify potential problems with the assumptions of a model.</p></li>
+<li><p>Use the <code>plot</code> function with a fitted model object to…</p>
+<ol style="list-style-type: decimal">
+<li>…construct a residuals vs. fitted values plot and evaluate the linearity assumption (regression only).</li>
+<li>…construct a normal probability plot and evaluate the normality assumption.</li>
+<li>…construct a scale-location plot and evaluate the constant variance assumption.</li>
+</ol></li>
+</ul>
+<p>(You are <strong>not</strong> expected to be able to produce these plots manually using functions like <code>resid</code> and <code>fitted</code>)</p>
+<ul>
+<li><p>When a problem with the assumptions of a model has been identified, choose an appropriate mathematical transformation to remedy the problem from…</p>
+<ol style="list-style-type: decimal">
+<li>…logarithm (including the “add 1” case when zeros are present)</li>
+<li>…square root</li>
+<li>…arcsine square root</li>
+</ol></li>
+<li><p>Identify situations where transforming a variable fails, so that a non-parametric test is required.</p></li>
+<li><p>Determine whether it is appropriate to carry out a multiple comparison test.</p></li>
+<li><p>Where appropriate, carry out a Tukey multiple comparison test using the <code>TukeyHSD</code> or <code>HSD.test</code> functions and interpret the results.</p></li>
+</ul>
+</div>
+<div id="experimental-design" class="section level2" number="2.6">
+<h2><span class="header-section-number">2.6</span> Experimental design</h2>
+<ul>
+<li><p>Understand that a paired-sample <em>t</em>-test is used to assess whether the mean difference among paired cases is different from reference value (usually 0).</p></li>
+<li><p>Given an experimental scenario and question, choose the correct <em>t</em>-test to use to answer the question.</p></li>
+<li><p>State the assumptions of the paired-sample <em>t</em>-tests, and explain how you might check them for a given problem using R.</p></li>
+<li><p>Carry out a paired-sample <em>t</em>-test using the <code>t.test</code> function, and be able to interpret the output produced by <code>t.test</code>.</p></li>
+<li><p>Write an informative and concise summary of the results from a paired-sample <em>t</em>-test.</p></li>
+</ul>
+</div>
+<div id="beyond-simple-models" class="section level2" number="2.7">
+<h2><span class="header-section-number">2.7</span> Beyond simple models</h2>
+<ul>
+<li><p>Understand what two-way ANOVA and ANCOVA do and when to use them.</p></li>
+<li><p>Understand what is meant by the terms ‘main effect’ and ‘interaction’ and evaluate the likley presence or absence of these effects using an interaction plot.</p></li>
+<li><p>State the assumptions of the two-way ANOVA and ANCOVA models.</p></li>
+<li><p>Fit a two-way ANOVA and ANCOVA using the <code>lm</code> function and interpret the three global tests of significance produced by the <code>anova</code> function.</p></li>
+<li><p>Use the <code>plot</code> function with a fitted model object to…</p>
+<ol style="list-style-type: decimal">
+<li>…construct a residuals vs. fitted values plot and evaluate the linearity assumption (ANCOVA only).</li>
+<li>…construct a normal probability plot and evaluate the normality assumption.</li>
+<li>…construct a scale-location plot and evaluate the constant variance assumption.</li>
+</ol></li>
+<li><p>Identify the main effect and interaction terms for which it is appropriate to carry out a multiple comparisons test.</p></li>
+<li><p>Where appropriate, carry out Tukey multiple comparison test(s) using the <code>TukeyHSD</code> or <code>HSD.test</code> functions, and interpret the results.</p></li>
+<li><p>Write an informative and concise summary of the results from a two-way ANOVA and ANCOVA analyses.</p></li>
+</ul>
+<p><em>Your ability to summarise a two-way ANOVA or ANCOVA graphically will not be assessed.</em></p>
+</div>
+<div id="frequency-data-and-non-parameteric-tests" class="section level2" number="2.8">
+<h2><span class="header-section-number">2.8</span> Frequency data and non-parameteric tests</h2>
+<ul>
+<li><p>Recognise situations where you are studying one or more categorical variables and you need to compare the frequencies of each category (or combinations of categories) in some way.</p></li>
+<li><p>Given an experimental scenario and question…</p>
+<ol style="list-style-type: decimal">
+<li>…decide on the appropriate type of analysis to use: goodness-of-fit, or contingency table.</li>
+<li>…state the null hypothesis of the required test.</li>
+</ol></li>
+<li><p>State the assumptions of the goodness-of-fit and contingency table tests.</p></li>
+<li><p>Carry out a goodness-of-fit test using the <code>chisq.test</code> function.</p></li>
+<li><p>Use the <code>xtabs</code> function to convert a set of counts of different combinations of categories to a table of cross-tabulated counts (when necessary).</p></li>
+<li><p>Carry out a contingency table test of association using the <code>chisq.test</code> function.</p></li>
+<li><p>Write an informative and concise summary of the results from goodness-of-fit and contingency table tests.</p></li>
+<li><p>Recognise that the Wilcoxon signed-rank test</p>
+<ol style="list-style-type: decimal">
+<li>…is an alternative to one-sample and paired-sample t-test</li>
+<li>…is carried out by the wilcox.test function in R</li>
+</ol></li>
+<li><p>Recognise that the Mann-Whitney U-test</p>
+<ol style="list-style-type: decimal">
+<li>…is an alternative to two-sample t-test</li>
+<li>…is carried out by the wilcox.test (note the name!) function in R</li>
+</ol></li>
+<li><p>Recognise that the Kruskal-Wallis test</p>
+<ol style="list-style-type: decimal">
+<li>…is an alternative to one-way ANOVA</li>
+<li>…is carried out by the kruskal.test function in R</li>
+</ol></li>
+<li><p>Recognise that the Spearman’s rank test</p>
+<ol style="list-style-type: decimal">
+<li>…is an alternative to Pearson’s correlation and when it is appropriate to use each method</li>
+<li>…is carried out by the cor.test function in R</li>
+</ol></li>
+</ul>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

@@ -21,3 +21,12 @@ online-drop-in-sessions
 working-together
 overall
 health-and-safety
+expected-learning
+collecting-and-using-data
+statistical-concepts
+simple-parametric-statistics
+regression-and-anova
+doing-more-with-models
+experimental-design
+beyond-simple-models
+frequency-data-and-non-parameteric-tests
