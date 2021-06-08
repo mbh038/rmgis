@@ -110,13 +110,13 @@ DO:
 
 -   When working through a tutorial exercise, follow the instructions carefully, but also **think about what you are doing**. Work at your own pace; you are not going to be assessed on whether you can do an analysis quickly.
 
--   Ask teaching staff for help using the discussion boards if there are things you don’t follow, or when things don’t seem to come out the way they should---that’s what they’re there for!
+-   Use the discussion boards on Teams to ask teaching staff for help if there are things you don’t follow, or when things don’t seem to come out the way they should---that’s what the staff are there for!
 
 -   Collaborate! If you are not sure you understand something feel free to discuss it with a friend---more often than not this is exactly how scientists resolve and clarify problems in their experimental design and analysis.
 
 -   Be prepared to experiment with R to solve problems that you encounter. You can't break R or RStudio by generating an error. When you run into a problem, go back to the line of code that generated the first error and try making a change.
 
--   Complete each week’s work before the next week’s session. You may be able to complete some sessions quite quickly, others may take more time and require more effort form you.
+-   Complete each week’s work before the next week’s session. You may be able to complete some sessions quite quickly, others may take more time and require more effort from you.
 
 DON’T:
 
