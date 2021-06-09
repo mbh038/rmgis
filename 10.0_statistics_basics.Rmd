@@ -854,7 +854,7 @@ diffs<-c(-0.5,0,0.5,1.0,1.5,2.0,2.5)
 freqs<-c(3,4,10,5,1,5,2)
 df<-tibble(diff=diffs,freq=freqs)
 
-df<-read_csv(here("data","Grafen_Hales_data","basics_DIFF.csv"))
+df<-read_csv(here("data","Grafen_Hails_data","basics_DIFF.csv"))
 
 df %>%
   ggplot(aes(x=DIFF)) +
@@ -903,7 +903,7 @@ Suppose we hypothesise that male and female squirrels differ in body mass. 50 sq
 Histograms and qq-plots of the data are shown below:
 
 ```{r}
-path<-here("data","Grafen_Hales_data","basics_SQUIRREL.csv")
+path<-here("data","Grafen_Hails_data","basics_SQUIRREL.csv")
 squirrels<-read_csv(path) %>%
   pivot_longer(1:2,names_to="sex",values_to="mass") %>%
   mutate(log_mass=log(mass))
