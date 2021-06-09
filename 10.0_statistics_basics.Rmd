@@ -1,4 +1,4 @@
-# A primer in statistics"
+# A primer in statistics
 
 ```{r, include=FALSE}
 options(tinytex.verbose = TRUE)
