@@ -4,7 +4,7 @@
 
 -   Given a description of some data, classify variables as numeric vs categorical, ratio vs. interval, and ordinal vs. nominal.
 
--   Construct simple summaries of numeric variables in R using the `mean`, `sd`, `var` functions.
+-   Construct simple summaries of numeric variables in R using the `mean`, and `sd` functions.
 
 
 ## Statistical Concepts
@@ -22,11 +22,10 @@
 
 -   Understand what is meant by the term 'null hypothesis' and, given a scenario, state the appropriate null hypothesis for the associated statistical test.
 
--   Identify whether or not a result is 'statistically significance' by examining the *p*-value it produces. 
+-   Identify whether or not a result is 'statistically significant' by examining the *p*-value it produces. 
 
 -   Calculate the standard error of a sample mean when the population distribution of a variable follows a normal distribution.
 
-_You are not expected to be able to explain or use the the bootstrap or permutation test---this were introduced to help you learn the principles listed above._
 
 ## Simple parametric statistics 
 
@@ -42,7 +41,7 @@ _You are not expected to be able to explain or use the the bootstrap or permutat
 
 -   Write an informative and concise summary of the results from a one-sample or two-sample *t*-test.
 
--   State the assumptions of Pearson's correlation and determine which when it is appropriate to use.
+-   State the assumptions of Pearson's correlation and determine when it is appropriate to use it.
 
 -   Carry out Pearson's correlation using the `cor.test` function and interpret the results.
 
@@ -66,8 +65,6 @@ _You are not expected to be able to explain or use the the bootstrap or permutat
 
 -   Write an informative and concise summary of the results from a simple linear regression and one-way ANOVA analyses.
 
-_Your ability to summarise a one-way ANOVA or regression analysis graphically---showing the means and standard errors (ANOVA) or the data and fitted line (regression)---will not be assessed._
-
 
 ## Doing more with models
 
@@ -80,8 +77,6 @@ _Your ability to summarise a one-way ANOVA or regression analysis graphically---
     1. ...construct a residuals vs. fitted values plot and evaluate the linearity assumption (regression only).
     2. ...construct a normal probability plot and evaluate the normality assumption.
     3. ...construct a scale-location plot and evaluate the constant variance assumption.
-
-(You are **not** expected to be able to produce these plots manually using functions like `resid` and `fitted`)
 
 -   When a problem with the assumptions of a model has been identified, choose an appropriate mathematical transformation to remedy the problem from...
 
@@ -113,7 +108,7 @@ _Your ability to summarise a one-way ANOVA or regression analysis graphically---
 
 -   Understand what two-way ANOVA and ANCOVA do and when to use them.
 
--   Understand what is meant by the terms 'main effect' and 'interaction' and evaluate the likley presence or absence of these effects using an interaction plot.
+-   Understand what is meant by the terms 'main effect' and 'interaction' and evaluate the likely presence or absence of these effects using an interaction plot.
 
 -   State the assumptions of the two-way ANOVA and ANCOVA models.
 
@@ -130,8 +125,6 @@ _Your ability to summarise a one-way ANOVA or regression analysis graphically---
 -   Where appropriate, carry out Tukey multiple comparison test(s) using the `TukeyHSD` or `HSD.test` functions, and interpret the results.
 
 -   Write an informative and concise summary of the results from a two-way ANOVA and ANCOVA analyses.
-
-_Your ability to summarise a two-way ANOVA or ANCOVA graphically will not be assessed._
 
 
 ## Frequency data and non-parameteric tests
