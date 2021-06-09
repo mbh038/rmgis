@@ -1,6 +1,6 @@
 --- 
 title: "Research Methods and GIS with R"
-author: "Michael Hunt (with an enormous debt to Dylan Childs of Sheffield University Dept. Plant and Animal Sciences, from whose examples I learned how to do this and from which this currently is partly a straight copy)"
+author: "Michael Hunt (with an enormous debt to Dylan Childs of Sheffield University Dept. Animal and Plant Sciences, from whose examples I learned how to do this and from which this currently is partly a straight copy)"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output:
