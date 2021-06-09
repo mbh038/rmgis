@@ -36,3 +36,5 @@ getting-rstudio
 getting-rstudio-1
 getting-rstudio-2
 on-your-machine-you-will-see-these-icons
+installing-r-and-r-studio
+what-to-open-and-what-not-to-open

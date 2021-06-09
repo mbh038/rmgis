@@ -1,5 +1,7 @@
 
-# Installing R
+# Installing R and R Studio
+
+To use R on your machine you will need to download and install both it and RStudio. R is the 'engine', the statistical software that actually does all the data manipulation and calculations, while RStudio is the 'IDE', or 'Integrated Development Environment'. It is the application through which you actually use R. While it is not necessary to use RStudio, doing so makes using R so much easier that pretty much everyone uses it now, and I advise you to do so too.
 
 ### Getting R
 
@@ -16,64 +18,31 @@ Click on  the appropriate download link for your operating system and follow the
 
 ### Getting RStudio
 
-Do this _after_ you have downloaded R. Download it from
+Do this _after_ you have downloaded R. 
 
-
+Download it from
 ```
 https://rstudio.com/products/rstudio/
 ```
 
+When you are there, click on Products
 ![RS page1](images/rs1.png)
 
-### Getting RStudio
-
-Download it from
-
-
-```
-https://rstudio.com/products/rstudio/
-```
-
+then on RStudio
 ![RS page2](images/rs2.png)
 
-### Getting RStudio
-
-Download it from
-
-
-```
-https://rstudio.com/products/rstudio/
-```
-
+then RStudio Desktop...
 ![RS page3](images/rs3.png)
-### Getting RStudio
 
-Download it from
-
-
-```
-https://rstudio.com/products/rstudio/
-```
-
+then download the Open Source Edition
 ![RS page4](images/rs4.png)
+and finally follow the installation instructions, appropriate for your machine.
 
-### On your machine you will see these icons
+### What to open and what not to open
 
+Once the download and installations are complete, you will see these icons on your machine:
 
+![R icon](images/r_icon.png) ![RStudio icon](images/rs_icon.png)
 
-![R icon](images/r_icon.png)
-
-__R__  
-__Never__ open this
-
-
-__R Studio__  
-__Always__ open this
-
- 
-  
-
-R is the engine, RStudio is the 'IDE' - the window through which you use R.  
-IDE = 'Integrated Development Environment'
-
+__Never__ open the __R__ icon (left), _always_ open the __R Studio__ icon (right).
 
