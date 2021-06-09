@@ -30,11 +30,7 @@ doing-more-with-models
 experimental-design
 beyond-simple-models
 frequency-data-and-non-parameteric-tests
-installing-r
+installing-r-and-r-studio
 getting-r
 getting-rstudio
-getting-rstudio-1
-getting-rstudio-2
-on-your-machine-you-will-see-these-icons
-installing-r-and-r-studio
 what-to-open-and-what-not-to-open
