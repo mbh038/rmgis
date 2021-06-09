@@ -119,8 +119,9 @@ scores %>%
   labs(x="Scores",
        y="Frequency",
        title="Two distributions with the same mean of 55") +
-  facet_wrap(~subject,ncol=2,labeller = labeller(subject=c("english"="English","maths"="maths"))) +
-  theme_cowplot()
+  facet_wrap(~subject,ncol=2,labeller = labeller(subject=c("english"="English","maths"="Maths"))) +
+  theme_cowplot() +
+  theme(strip.background = element_blank())
 ```
 
 ```{r,echo=FALSE,fig.height=3}
@@ -525,7 +526,7 @@ sampling_dist<-
   ggplot(aes(x=means)) +
   geom_histogram(binwidth=0.5,fill=fill_colour1,colour=line_colour,alpha=0.2) +
   geom_function(fun=myfun,args=list(mean=mu,sd=sigma/sqrt(sample_size),N=n_samples,binwidth=0.5),colour=func_colour) +
-  scale_x_continuous(limits=c(lower_xlim,upper_xlim)) 
+  scale_x_continuous(limits=c(lower_xlim,upper_xlim)) +
   labs(x='Weight(kg)',
        y='Frequency',
        subtitle="Sampling distribution") +
