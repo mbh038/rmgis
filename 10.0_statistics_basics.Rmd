@@ -1,8 +1,4 @@
----
-title: "A primer in statistics"
-output: github_document
-always_allow_html: true
----
+# A primer in statistics"
 
 ```{r, include=FALSE}
 options(tinytex.verbose = TRUE)

@@ -34,6 +34,7 @@ installing-r-and-r-studio
 getting-r
 getting-rstudio
 what-to-open-and-what-not-to-open
+a-primer-in-statistics
 populations-and-samples
 three-types-of-variability-of-the-sample-of-the-population-and-of-the-estimate.
 variability-of-the-sample

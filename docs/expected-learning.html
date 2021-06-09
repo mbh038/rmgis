@@ -53,6 +53,8 @@
 
 <link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 <style type="text/css">
 
 .warning-box {
@@ -136,6 +138,16 @@
 <li class="chapter" data-level="3.0.2" data-path="installing-r-and-r-studio.html"><a href="installing-r-and-r-studio.html#getting-rstudio"><i class="fa fa-check"></i><b>3.0.2</b> Getting RStudio</a></li>
 <li class="chapter" data-level="3.0.3" data-path="installing-r-and-r-studio.html"><a href="installing-r-and-r-studio.html#what-to-open-and-what-not-to-open"><i class="fa fa-check"></i><b>3.0.3</b> What to open and what not to open</a></li>
 </ul></li>
+<li class="chapter" data-level="4" data-path="a-primer-in-statistics.html"><a href="a-primer-in-statistics.html"><i class="fa fa-check"></i><b>4</b> A primer in statistics"</a>
+<ul>
+<li class="chapter" data-level="4.0.1" data-path="a-primer-in-statistics.html"><a href="a-primer-in-statistics.html#populations-and-samples"><i class="fa fa-check"></i><b>4.0.1</b> Populations and samples</a></li>
+<li class="chapter" data-level="4.0.2" data-path="a-primer-in-statistics.html"><a href="a-primer-in-statistics.html#three-types-of-variability-of-the-sample-of-the-population-and-of-the-estimate."><i class="fa fa-check"></i><b>4.0.2</b> Three types of variability: of the sample, of the population and of the estimate.</a></li>
+<li class="chapter" data-level="4.0.3" data-path="a-primer-in-statistics.html"><a href="a-primer-in-statistics.html#confidence-intervals-a-way-of-precisely-representing-uncertainty"><i class="fa fa-check"></i><b>4.0.3</b> Confidence intervals: a way of precisely representing uncertainty</a></li>
+<li class="chapter" data-level="4.0.4" data-path="a-primer-in-statistics.html"><a href="a-primer-in-statistics.html#the-big-hitch-with-confidence-intervals---why-we-use-a-t-distribution"><i class="fa fa-check"></i><b>4.0.4</b> The big hitch with confidence intervals - why we use a <span class="math inline">\(t\)</span>-distribution</a></li>
+<li class="chapter" data-level="4.0.5" data-path="a-primer-in-statistics.html"><a href="a-primer-in-statistics.html#hypothesis-testing"><i class="fa fa-check"></i><b>4.0.5</b> Hypothesis testing</a></li>
+<li class="chapter" data-level="4.0.6" data-path="a-primer-in-statistics.html"><a href="a-primer-in-statistics.html#comparing-two-means"><i class="fa fa-check"></i><b>4.0.6</b> Comparing two means</a></li>
+<li class="chapter" data-level="4.0.7" data-path="a-primer-in-statistics.html"><a href="a-primer-in-statistics.html#size-effects-vs-hypothesis-testing."><i class="fa fa-check"></i><b>4.0.7</b> Size effects vs hypothesis testing.</a></li>
+</ul></li>
 </ul>
 
       </nav>
@@ -159,7 +171,7 @@
 <h2><span class="header-section-number">2.1</span> Collecting and using data</h2>
 <ul>
 <li><p>Given a description of some data, classify variables as numeric vs categorical, ratio vs. interval, and ordinal vs. nominal.</p></li>
-<li><p>Construct simple summaries of numeric variables in R using the <code>mean</code>, <code>sd</code>, <code>var</code> functions.</p></li>
+<li><p>Construct simple summaries of numeric variables in R using the <code>mean</code>, and <code>sd</code> functions.</p></li>
 </ul>
 </div>
 <div id="statistical-concepts" class="section level2" number="2.2">
@@ -174,10 +186,9 @@
 <li>…the difference between a population parameter and a point estimate of the population parameter.</li>
 </ol></li>
 <li><p>Understand what is meant by the term ‘null hypothesis’ and, given a scenario, state the appropriate null hypothesis for the associated statistical test.</p></li>
-<li><p>Identify whether or not a result is ‘statistically significance’ by examining the <em>p</em>-value it produces.</p></li>
+<li><p>Identify whether or not a result is ‘statistically significant’ by examining the <em>p</em>-value it produces.</p></li>
 <li><p>Calculate the standard error of a sample mean when the population distribution of a variable follows a normal distribution.</p></li>
 </ul>
-<p><em>You are not expected to be able to explain or use the the bootstrap or permutation test—this were introduced to help you learn the principles listed above.</em></p>
 </div>
 <div id="simple-parametric-statistics" class="section level2" number="2.3">
 <h2><span class="header-section-number">2.3</span> Simple parametric statistics</h2>
@@ -188,7 +199,7 @@
 <li><p>State the assumptions of the one-sample, and two-sample <em>t</em>-tests, and explain how you might check them for a given problem using R.</p></li>
 <li><p>Carry out a one-sample or two-sample <em>t</em>-test using the <code>t.test</code> function, and be able to interpret the output produced by <code>t.test</code>.</p></li>
 <li><p>Write an informative and concise summary of the results from a one-sample or two-sample <em>t</em>-test.</p></li>
-<li><p>State the assumptions of Pearson’s correlation and determine which when it is appropriate to use.</p></li>
+<li><p>State the assumptions of Pearson’s correlation and determine when it is appropriate to use it.</p></li>
 <li><p>Carry out Pearson’s correlation using the <code>cor.test</code> function and interpret the results.</p></li>
 <li><p>Write an informative and concise summary of the results from a correlation analysis.</p></li>
 </ul>
@@ -207,7 +218,6 @@
 <li><p>Fit a one-way ANOVA using the <code>lm</code> function and interpret the global test of significance produced by the <code>anova</code> function.</p></li>
 <li><p>Write an informative and concise summary of the results from a simple linear regression and one-way ANOVA analyses.</p></li>
 </ul>
-<p><em>Your ability to summarise a one-way ANOVA or regression analysis graphically—showing the means and standard errors (ANOVA) or the data and fitted line (regression)—will not be assessed.</em></p>
 </div>
 <div id="doing-more-with-models" class="section level2" number="2.5">
 <h2><span class="header-section-number">2.5</span> Doing more with models</h2>
@@ -220,9 +230,6 @@
 <li>…construct a normal probability plot and evaluate the normality assumption.</li>
 <li>…construct a scale-location plot and evaluate the constant variance assumption.</li>
 </ol></li>
-</ul>
-<p>(You are <strong>not</strong> expected to be able to produce these plots manually using functions like <code>resid</code> and <code>fitted</code>)</p>
-<ul>
 <li><p>When a problem with the assumptions of a model has been identified, choose an appropriate mathematical transformation to remedy the problem from…</p>
 <ol style="list-style-type: decimal">
 <li>…logarithm (including the “add 1” case when zeros are present)</li>
@@ -248,7 +255,7 @@
 <h2><span class="header-section-number">2.7</span> Beyond simple models</h2>
 <ul>
 <li><p>Understand what two-way ANOVA and ANCOVA do and when to use them.</p></li>
-<li><p>Understand what is meant by the terms ‘main effect’ and ‘interaction’ and evaluate the likley presence or absence of these effects using an interaction plot.</p></li>
+<li><p>Understand what is meant by the terms ‘main effect’ and ‘interaction’ and evaluate the likely presence or absence of these effects using an interaction plot.</p></li>
 <li><p>State the assumptions of the two-way ANOVA and ANCOVA models.</p></li>
 <li><p>Fit a two-way ANOVA and ANCOVA using the <code>lm</code> function and interpret the three global tests of significance produced by the <code>anova</code> function.</p></li>
 <li><p>Use the <code>plot</code> function with a fitted model object to…</p>
@@ -261,7 +268,6 @@
 <li><p>Where appropriate, carry out Tukey multiple comparison test(s) using the <code>TukeyHSD</code> or <code>HSD.test</code> functions, and interpret the results.</p></li>
 <li><p>Write an informative and concise summary of the results from a two-way ANOVA and ANCOVA analyses.</p></li>
 </ul>
-<p><em>Your ability to summarise a two-way ANOVA or ANCOVA graphically will not be assessed.</em></p>
 </div>
 <div id="frequency-data-and-non-parameteric-tests" class="section level2" number="2.8">
 <h2><span class="header-section-number">2.8</span> Frequency data and non-parameteric tests</h2>
