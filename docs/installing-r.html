@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 3 Installing R | Research Methods and GIS with R</title>
+  <meta name="description" content="Course book for CORN276 Research Methods and GIS at Cornwall College Newquay" />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 3 Installing R | Research Methods and GIS with R" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Course book for CORN276 Research Methods and GIS at Cornwall College Newquay" />
+  <meta name="github-repo" content="mbh038/rmgis" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 3 Installing R | Research Methods and GIS with R" />
+  
+  <meta name="twitter:description" content="Course book for CORN276 Research Methods and GIS at Cornwall College Newquay" />
+  
+
+<meta name="author" content="Michael Hunt (with an enormous debt to Dylan Childs, from which this currently is mostly a straight copy)" />
+
+
+<meta name="date" content="2021-06-08" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="expected-learning.html"/>
+
+<script src="libs/header-attrs-2.8/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<style type="text/css">
+
+.warning-box {
+  border: 3px solid #e60000;
+  margin:  25px;
+  padding: 10px 10px 5px 10px;
+  border-radius: 6px 6px 6px 6px;
+}
+
+.advanced-box {
+  border: 3px solid #268bd2;
+  margin:  25px;
+  padding: 10px 10px 5px 10px;
+  border-radius: 6px 6px 6px 6px;
+}
+
+.do-something {
+  border: 3px solid #803e00;
+  margin:  25px;
+  padding: 10px 10px 5px 10px;
+  border-radius: 6px 6px 6px 6px;
+}
+
+</style>
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Course information and overview</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#why-do-this-course"><i class="fa fa-check"></i><b>1.1</b> Why do this course?</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#overview"><i class="fa fa-check"></i><b>1.2</b> Course overview</a>
+<ul>
+<li class="chapter" data-level="1.2.1" data-path="index.html"><a href="index.html#aims"><i class="fa fa-check"></i><b>1.2.1</b> Aims</a></li>
+<li class="chapter" data-level="1.2.2" data-path="index.html"><a href="index.html#objectives"><i class="fa fa-check"></i><b>1.2.2</b> Objectives</a></li>
+<li class="chapter" data-level="1.2.3" data-path="index.html"><a href="index.html#assumed-background"><i class="fa fa-check"></i><b>1.2.3</b> Assumed background</a></li>
+<li class="chapter" data-level="1.2.4" data-path="index.html"><a href="index.html#methods"><i class="fa fa-check"></i><b>1.2.4</b> Methods</a></li>
+<li class="chapter" data-level="1.2.5" data-path="index.html"><a href="index.html#what-do-you-need-to-learn"><i class="fa fa-check"></i><b>1.2.5</b> What do you need to learn?</a></li>
+<li class="chapter" data-level="1.2.6" data-path="index.html"><a href="index.html#what-is-required-of-you"><i class="fa fa-check"></i><b>1.2.6</b> What is required of you?</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#how-to-use-the-teaching-material"><i class="fa fa-check"></i><b>1.3</b> How to use the teaching material</a>
+<ul>
+<li class="chapter" data-level="1.3.1" data-path="index.html"><a href="index.html#printed-material"><i class="fa fa-check"></i><b>1.3.1</b> The online course book</a></li>
+<li class="chapter" data-level="1.3.2" data-path="index.html"><a href="index.html#how-to-make-best-use-of-it"><i class="fa fa-check"></i><b>1.3.2</b> How to make best use of the teaching material</a></li>
+<li class="chapter" data-level="1.3.3" data-path="index.html"><a href="index.html#conventions"><i class="fa fa-check"></i><b>1.3.3</b> Conventions used in the course material</a></li>
+<li class="chapter" data-level="1.3.4" data-path="index.html"><a href="index.html#feedback"><i class="fa fa-check"></i><b>1.3.4</b> Feedback</a></li>
+<li class="chapter" data-level="1.3.5" data-path="index.html"><a href="index.html#overall"><i class="fa fa-check"></i><b>1.3.5</b> Overall…</a></li>
+</ul></li>
+<li class="chapter" data-level="1.4" data-path="index.html"><a href="index.html#health-and-safety"><i class="fa fa-check"></i><b>1.4</b> Health and safety using display screen equipment</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="expected-learning.html"><a href="expected-learning.html"><i class="fa fa-check"></i><b>2</b> Expected learning outcomes</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="expected-learning.html"><a href="expected-learning.html#collecting-and-using-data"><i class="fa fa-check"></i><b>2.1</b> Collecting and using data</a></li>
+<li class="chapter" data-level="2.2" data-path="expected-learning.html"><a href="expected-learning.html#statistical-concepts"><i class="fa fa-check"></i><b>2.2</b> Statistical Concepts</a></li>
+<li class="chapter" data-level="2.3" data-path="expected-learning.html"><a href="expected-learning.html#simple-parametric-statistics"><i class="fa fa-check"></i><b>2.3</b> Simple parametric statistics</a></li>
+<li class="chapter" data-level="2.4" data-path="expected-learning.html"><a href="expected-learning.html#regression-and-anova"><i class="fa fa-check"></i><b>2.4</b> Regression and ANOVA</a></li>
+<li class="chapter" data-level="2.5" data-path="expected-learning.html"><a href="expected-learning.html#doing-more-with-models"><i class="fa fa-check"></i><b>2.5</b> Doing more with models</a></li>
+<li class="chapter" data-level="2.6" data-path="expected-learning.html"><a href="expected-learning.html#experimental-design"><i class="fa fa-check"></i><b>2.6</b> Experimental design</a></li>
+<li class="chapter" data-level="2.7" data-path="expected-learning.html"><a href="expected-learning.html#beyond-simple-models"><i class="fa fa-check"></i><b>2.7</b> Beyond simple models</a></li>
+<li class="chapter" data-level="2.8" data-path="expected-learning.html"><a href="expected-learning.html#frequency-data-and-non-parameteric-tests"><i class="fa fa-check"></i><b>2.8</b> Frequency data and non-parameteric tests</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="installing-r.html"><a href="installing-r.html"><i class="fa fa-check"></i><b>3</b> Installing R</a>
+<ul>
+<li class="chapter" data-level="3.0.1" data-path="installing-r.html"><a href="installing-r.html#getting-r"><i class="fa fa-check"></i><b>3.0.1</b> Getting R</a></li>
+<li class="chapter" data-level="3.0.2" data-path="installing-r.html"><a href="installing-r.html#getting-rstudio"><i class="fa fa-check"></i><b>3.0.2</b> Getting RStudio</a></li>
+<li class="chapter" data-level="3.0.3" data-path="installing-r.html"><a href="installing-r.html#getting-rstudio-1"><i class="fa fa-check"></i><b>3.0.3</b> Getting RStudio</a></li>
+<li class="chapter" data-level="3.0.4" data-path="installing-r.html"><a href="installing-r.html#getting-rstudio-2"><i class="fa fa-check"></i><b>3.0.4</b> Getting RStudio</a></li>
+<li class="chapter" data-level="3.0.5" data-path="installing-r.html"><a href="installing-r.html#on-your-machine-you-will-see-these-icons"><i class="fa fa-check"></i><b>3.0.5</b> On your machine you will see these icons</a></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Research Methods and GIS with R</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="installing-r" class="section level1" number="3">
+<h1><span class="header-section-number">Chapter 3</span> Installing R</h1>
+<div id="getting-r" class="section level3" number="3.0.1">
+<h3><span class="header-section-number">3.0.1</span> Getting R</h3>
+<p>Download it from the CRAN page at</p>
+<pre><code>cloud.r-project.org</code></pre>
+<div class="figure">
+<img src="./figures/cran_page.png" alt="" />
+<p class="caption">CRAN page</p>
+</div>
+<p>Click on the appropriate download link for your operating system and follow the installation instructions.</p>
+</div>
+<div id="getting-rstudio" class="section level3" number="3.0.2">
+<h3><span class="header-section-number">3.0.2</span> Getting RStudio</h3>
+<p>Do this <em>after</em> you have downloaded R. Download it from</p>
+<pre><code>https://rstudio.com/products/rstudio/</code></pre>
+<div class="figure">
+<img src="./figures/rs1.png" alt="" />
+<p class="caption">RS page1</p>
+</div>
+</div>
+<div id="getting-rstudio-1" class="section level3" number="3.0.3">
+<h3><span class="header-section-number">3.0.3</span> Getting RStudio</h3>
+<p>Download it from</p>
+<pre><code>https://rstudio.com/products/rstudio/</code></pre>
+<div class="figure">
+<img src="./figures/rs2.png" alt="" />
+<p class="caption">RS page2</p>
+</div>
+</div>
+<div id="getting-rstudio-2" class="section level3" number="3.0.4">
+<h3><span class="header-section-number">3.0.4</span> Getting RStudio</h3>
+<p>Download it from</p>
+<pre><code>https://rstudio.com/products/rstudio/</code></pre>
+<p><img src="./figures/rs3.png" alt="RS page3" />
+### Getting RStudio</p>
+<p>Download it from</p>
+<pre><code>https://rstudio.com/products/rstudio/</code></pre>
+<p>[RS page4](./figures/rs4.png</p>
+</div>
+<div id="on-your-machine-you-will-see-these-icons" class="section level3" number="3.0.5">
+<h3><span class="header-section-number">3.0.5</span> On your machine you will see these icons</h3>
+<div class="figure">
+<img src="./figures/r_icon.png" alt="" />
+<p class="caption">R icon</p>
+</div>
+<p><strong>R</strong><br />
+<strong>Never</strong> open this</p>
+<p><strong>R Studio</strong><br />
+<strong>Always</strong> open this
+]</p>
+<p>R is the engine, RStudio is the ‘IDE’ - the window through which you use R.<br />
+IDE = ‘Integrated Development Environment’</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="expected-learning.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

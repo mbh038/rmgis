@@ -9,7 +9,7 @@ Download it from the CRAN page at
 cloud.r-project.org
 ```
 
-![CRAN page](./figures/cran_page.png)
+![CRAN page](images/cran_page.png)
 
 Click on  the appropriate download link for your operating system and follow the installation instructions.
 
@@ -23,7 +23,7 @@ Do this _after_ you have downloaded R. Download it from
 https://rstudio.com/products/rstudio/
 ```
 
-![RS page1](./figures/rs1.png)
+![RS page1](images/rs1.png)
 
 ### Getting RStudio
 
@@ -34,7 +34,7 @@ Download it from
 https://rstudio.com/products/rstudio/
 ```
 
-![RS page2](./figures/rs2.png)
+![RS page2](images/rs2.png)
 
 ### Getting RStudio
 
@@ -45,7 +45,7 @@ Download it from
 https://rstudio.com/products/rstudio/
 ```
 
-![RS page3](./figures/rs3.png)
+![RS page3](images/rs3.png)
 ### Getting RStudio
 
 Download it from
@@ -55,26 +55,21 @@ Download it from
 https://rstudio.com/products/rstudio/
 ```
 
-![RS page4](./figures/rs4.png
+![RS page4](images/rs4.png)
 
 ### On your machine you will see these icons
 
 
 
-.pull-left[
-
-![R icon](./figures/r_icon.png)
+![R icon](images/r_icon.png)
 
 __R__  
 __Never__ open this
-]
 
-.pull-right[
-![RS icon](./figures/rs_icon.png)
 
 __R Studio__  
 __Always__ open this
-]
+
  
   
 

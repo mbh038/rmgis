@@ -30,13 +30,9 @@ doing-more-with-models
 experimental-design
 beyond-simple-models
 frequency-data-and-non-parameteric-tests
+installing-r
 getting-r
-click-on-the-appropriate-download-link-for-your-operating-system-and-follow-the-installation-instructions.
 getting-rstudio
-rs-page1
 getting-rstudio-1
-rs-page2
 getting-rstudio-2
-rs-page3
-getting-rstudio-3
 on-your-machine-you-will-see-these-icons
